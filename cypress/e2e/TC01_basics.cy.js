@@ -1,9 +1,6 @@
 describe('Login', function(){
     it('Sign in', function(){
-        /*cy.visit('https://react-redux.realworld.io/#login')
-        cy.get('input[type="email"]').type("reshzak123@gmail.com")
-        cy.get('input[type="password"]').type("abc")
-        cy.get('.btn').contains('Sign in').click()*/
+       
 
         cy.visit('https://www.commbank.com.au/home-loans/home-loan-calculators-and-tools.html')
         cy.get('#calculators > .column-combo > .content-section > .item-section > :nth-child(2) > .item-inner > :nth-child(3) > .button_tertiary').click()
