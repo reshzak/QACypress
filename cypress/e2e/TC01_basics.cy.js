@@ -1,7 +1,5 @@
 describe('Login', function(){
     it('Sign in', function(){
-       
-
         cy.visit('https://www.commbank.com.au/home-loans/home-loan-calculators-and-tools.html')
         cy.get('#calculators > .column-combo > .content-section > .item-section > :nth-child(2) > .item-inner > :nth-child(3) > .button_tertiary').click()
         cy.get('#amount').clear().type('650000')
